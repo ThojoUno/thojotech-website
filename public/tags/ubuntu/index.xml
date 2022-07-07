@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ubuntu on THOJOTECH</title>
+    <link>https://www.thojotech.com/tags/ubuntu/</link>
+    <description>Recent content in Ubuntu on THOJOTECH</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2022, Joe Thompson; all rights reserved.</copyright>
+    <lastBuildDate>Wed, 06 Jul 2022 20:43:41 -0700</lastBuildDate><atom:link href="https://www.thojotech.com/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Az MySql Flexible-server command returns error</title>
+      <link>https://www.thojotech.com/post/azmysqlflexclierr/</link>
+      <pubDate>Wed, 06 Jul 2022 20:43:41 -0700</pubDate>
+      
+      <guid>https://www.thojotech.com/post/azmysqlflexclierr/</guid>
+      <description>
+        
+          
+            I recently started scripting with Azure CLI within my Windows Subsystem for Linux (WSL) environment and tried to create a database on an Azure Database for MySQL Flexible-Server instance and received an error &#39;flexible-server&#39; is not in the &#39;az mysql&#39; command group. I also tried to list out the flexible-servers in my subscription, but it also give the same error!
+I tried to see if maybe my Azure CLI was out of date, but it was already at the newest version!
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

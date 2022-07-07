@@ -6,7 +6,24 @@
     <description>Recent content on THOJOTECH</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2022, Joe Thompson; all rights reserved.</copyright>
-    <lastBuildDate>Tue, 05 Jul 2022 09:38:55 -0700</lastBuildDate><atom:link href="https://www.thojotech.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Jul 2022 20:43:41 -0700</lastBuildDate><atom:link href="https://www.thojotech.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Az MySql Flexible-server command returns error</title>
+      <link>https://www.thojotech.com/post/azmysqlflexclierr/</link>
+      <pubDate>Wed, 06 Jul 2022 20:43:41 -0700</pubDate>
+      
+      <guid>https://www.thojotech.com/post/azmysqlflexclierr/</guid>
+      <description>
+        
+          
+            I recently started scripting with Azure CLI within my Windows Subsystem for Linux (WSL) environment and tried to create a database on an Azure Database for MySQL Flexible-Server instance and received an error &#39;flexible-server&#39; is not in the &#39;az mysql&#39; command group. I also tried to list out the flexible-servers in my subscription, but it also give the same error!
+I tried to see if maybe my Azure CLI was out of date, but it was already at the newest version!
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Notes from the field - Microsoft Office 365 Migration</title>
       <link>https://www.thojotech.com/post/notes-o365/</link>
@@ -16,8 +33,8 @@
       <description>
         
           
-            My role: Technical Advisor Company type: Large Hospitality &amp;amp; Gaming
-On a recent Microsoft Office365/Box to OneDrive migration project, I was asked to put together a lessons-learned for the project. Listed below are some of those lessons. The Microsoft Office 365 upgrade project had in scope upgrading users from Office 2010 to O365.
+            On a recent Microsoft Office365/Box to OneDrive migration project, I was asked to put together a lessons-learned for the project. Listed below are some of those lessons. The Microsoft Office 365 upgrade project had in scope upgrading users from Office 2010 to O365.
+My role: Technical Advisor Company type: Large Hospitality &amp;amp; Gaming
 Make sure you have a good sampling of users in the pilot. Office workers, executives, etc.
 Inventory is everything.
           

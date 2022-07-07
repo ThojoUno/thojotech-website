@@ -25,11 +25,10 @@ tags:
   - Microsoft
 ---
 
-**My role**: Technical Advisor
-**Company type**: Large Hospitality & Gaming
-
 On a recent Microsoft Office365/Box to OneDrive migration project, I was asked to put together a lessons-learned for the project. Listed below are some of those lessons. The Microsoft Office 365 upgrade project had in scope upgrading users from Office 2010 to O365.
 
+**My role**: Technical Advisor
+**Company type**: Large Hospitality & Gaming
   
 - Make sure you have a good sampling of users in the pilot. Office workers, executives, etc.
   
