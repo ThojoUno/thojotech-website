@@ -8,11 +8,7 @@ author = "Joe Thompson"
 
 Blog with an emphasis on technology, particularly as it relates to Microsoft and Microsoft Azure and other random things.
 
-Joe has over 20 years of 
-
-
-
-
+Joe has over 20 years of experience in data center infrastructure operations, with specialities in CMDB/Configuration management, patch management, monitoring and server migration and standardization.
 
 This blog is created in Hugo, an open-source static site generator, and hosted on Microsoft Azure Static Web apps.
 
