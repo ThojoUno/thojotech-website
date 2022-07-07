@@ -6,7 +6,25 @@
     <description>Recent content in Posts on THOJOTECH</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2022, Joe Thompson; all rights reserved.</copyright>
-    <lastBuildDate>Wed, 06 Jul 2022 20:43:41 -0700</lastBuildDate><atom:link href="https://www.thojotech.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Jul 2022 10:17:57 -0700</lastBuildDate><atom:link href="https://www.thojotech.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Use GitHub Actions workflow to deploy your Hugo static website in Azure Storage</title>
+      <link>https://www.thojotech.com/post/hugoazuregithub/</link>
+      <pubDate>Thu, 07 Jul 2022 10:17:57 -0700</pubDate>
+      
+      <guid>https://www.thojotech.com/post/hugoazuregithub/</guid>
+      <description>
+        
+          
+            This article is based on Microsoft’s documentation -- Use GitHub Actions workflow to deploy your static website in Azure Storage --, but has been updated to reflect changes required to publish Hugo static sites to Azure blob storage/static web sites. Please see the article linked above for a list of prerequisites.
+Generate deployment credentials Using Azure CLI
+1$azsubId=&amp;#34;xxxxxxxxxxxxxxxxxxxxxx&amp;#34; 2$azStrAcctResourceGroup=&amp;#34;rg-westus2-website&amp;#34; 3$azstorageacct=&amp;#34;stgwestus2webstorageacct&amp;#34; 4az ad sp create-for-rbac --name $azstorageacct --role contributor --scopes /subscriptions/$azsubId/resourceGroups/$azStrAcctResourceGroup --sdk-auth The command will generate a JSON object, copy and save for later:
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Az MySql Flexible-server command returns error</title>
       <link>https://www.thojotech.com/post/azmysqlflexclierr/</link>

@@ -2,12 +2,14 @@
 <!DOCTYPE html>
 <html
   lang="en"
-  data-figures=""
+  data-figures="true"
+  
+    class="page"
   
   
   >
   <head>
-<title>WSL | THOJOTECH</title>
+<title>Use GitHub Actions workflow to deploy your Hugo static website in Azure Storage | THOJOTECH</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,25 +23,25 @@
 
 
 
+
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="" />
+<meta name="description" content="How to deploy Hugo static web site to Azure blob storage" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="@thojotech">
-<meta name="twitter:title" content="WSL" />
-<meta name="twitter:image" content="https://www.thojotech.com/images/thumbnail.png"/>
-<meta property="og:url" content="https://www.thojotech.com/tags/wsl/" />
-<meta property="og:title" content="WSL" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="https://www.thojotech.com/images/thumbnail.png" />
+<meta name="twitter:title" content="Use GitHub Actions workflow to deploy your Hugo static website in Azure Storage" />
+<meta name="twitter:image" content="https://www.thojotech.com/logos/azure_logo_794_new.png"/>
+<meta property="og:url" content="https://www.thojotech.com/post/hugoazuregithub/" />
+<meta property="og:title" content="Use GitHub Actions workflow to deploy your Hugo static website in Azure Storage" />
+<meta property="og:description" content="How to deploy Hugo static web site to Azure blob storage" />
+<meta property="og:image" content="https://www.thojotech.com/logos/azure_logo_794_new.png" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.thojotech.com/icons/thojotech-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.thojotech.com/icons/thojotech-icon.png">
 <link rel="manifest" href="https://www.thojotech.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.thojotech.com/tags/wsl/">
-<link rel="alternate" type="application/rss+xml" href="https://www.thojotech.com/tags/wsl/index.xml" title="THOJOTECH" />
+<link rel="canonical" href="https://www.thojotech.com/post/hugoazuregithub/">
 
 
 
@@ -56,7 +58,7 @@
 
   </head>
   <body
-    data-code="7"
+    data-code="10"
     data-lines="false"
     id="documentTop"
   >
@@ -139,17 +141,10 @@
 </header>
 
     <main>
-
+  
 <div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.thojotech.com/post/azmysqlflexclierr/" title="Az MySql Flexible-server command returns error">Az MySql Flexible-server command returns error</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">Use GitHub Actions workflow to deploy your Hugo static website in Azure Storage</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -157,26 +152,23 @@
 </svg>
 </span>
     <span class="post_date">
-      Jul 6, 2022</span>
+      Jul 7, 2022</span>
     <span class="post_time"> · 2 min read</span><span>&nbsp;· <a href='https://www.thojotech.com/tags/azure/' title="Azure" class="post_tag button button_translucent">Azure
-        </a><a href='https://www.thojotech.com/tags/powershell/' title="PowerShell" class="post_tag button button_translucent">PowerShell
-        </a><a href='https://www.thojotech.com/tags/cli/' title="Cli" class="post_tag button button_translucent">Cli
-        </a><a href='https://www.thojotech.com/tags/mysql/' title="MySql" class="post_tag button button_translucent">MySql
-        </a><a href='https://www.thojotech.com/tags/wsl/' title="WSL" class="post_tag button button_translucent">WSL
-        </a><a href='https://www.thojotech.com/tags/ubuntu/' title="Ubuntu" class="post_tag button button_translucent">Ubuntu
+        </a><a href='https://www.thojotech.com/tags/hugo/' title="Hugo" class="post_tag button button_translucent">Hugo
+        </a><a href='https://www.thojotech.com/tags/github/' title="GitHub" class="post_tag button button_translucent">GitHub
         </a>
     </span>
     <span class="page_only">&nbsp;·
   <div class="post_share">
     Share on:
-    <a href="https://twitter.com/intent/tweet?text=Az%20MySql%20Flexible-server%20command%20returns%20error&url=https%3a%2f%2fwww.thojotech.com%2fpost%2fazmysqlflexclierr%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
+    <a href="https://twitter.com/intent/tweet?text=Use%20GitHub%20Actions%20workflow%20to%20deploy%20your%20Hugo%20static%20website%20in%20Azure%20Storage&url=https%3a%2f%2fwww.thojotech.com%2fpost%2fhugoazuregithub%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
       <svg class="icon">
   <title>twitter</title>
   <use xlink:href="#twitter"></use>
 </svg>
 
     </a>
-    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.thojotech.com%2fpost%2fazmysqlflexclierr%2f&t=Az%20MySql%20Flexible-server%20command%20returns%20error" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
+    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.thojotech.com%2fpost%2fhugoazuregithub%2f&t=Use%20GitHub%20Actions%20workflow%20to%20deploy%20your%20Hugo%20static%20website%20in%20Azure%20Storage" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
       <svg class="icon">
   <title>facebook</title>
   <use xlink:href="#facebook"></use>
@@ -190,7 +182,7 @@
 </svg>
 
     </a>
-    <a href="https://www.thojotech.com/post/azmysqlflexclierr/" title="Copy Link" class="link link_yank">
+    <a href="https://www.thojotech.com/post/hugoazuregithub/" title="Copy Link" class="link link_yank">
       <svg class="icon">
   <title>copy</title>
   <use xlink:href="#copy"></use>
@@ -201,58 +193,95 @@
   </span>
   </div>
 
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail">
-  <figure>
-  <picture>
+    <div class="post_body"><p>This article is based on Microsoft’s documentation -- <a href="https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-static-site-github-actions?tabs=userlevel">Use GitHub Actions workflow to deploy your static website in Azure Storage </a> --, but has been updated to reflect changes required to publish Hugo static sites to Azure blob storage/static web sites. Please see the article linked above for a list of prerequisites.</p>
+<h1 id="generate-deployment-credentials">Generate deployment credentials</h1>
+<p>Using Azure CLI</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">$azsubId=&#34;xxxxxxxxxxxxxxxxxxxxxx&#34;
+</span></span><span class="line"><span class="ln">2</span><span class="cl">$azStrAcctResourceGroup=&#34;rg-westus2-website&#34;
+</span></span><span class="line"><span class="ln">3</span><span class="cl">$azstorageacct=&#34;stgwestus2webstorageacct&#34;
+</span></span><span class="line"><span class="ln">4</span><span class="cl">az ad sp create-for-rbac --name $azstorageacct --role contributor --scopes /subscriptions/$azsubId/resourceGroups/$azStrAcctResourceGroup --sdk-auth
+</span></span></code></pre></div><p>The command will generate a JSON object, copy and save for later:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln"> 1</span><span class="cl">{
+</span></span><span class="line"><span class="ln"> 2</span><span class="cl">    &#34;clientId&#34;: &#34;&lt;GUID&gt;&#34;,
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl">    &#34;clientSecret&#34;: &#34;&lt;GUID&gt;&#34;,
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl">    &#34;subscriptionId&#34;: &#34;&lt;GUID&gt;&#34;,
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl">    &#34;tenantId&#34;: &#34;&lt;GUID&gt;&#34;,
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl">    &#34;activeDirectoryEndpointUrl&#34;: &#34;https://login.microsoftonline.com&#34;,
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl">    &#34;resourceManagerEndpointUrl&#34;: &#34;https://management.azure.com/&#34;,
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl">    &#34;activeDirectoryGraphResourceId&#34;: &#34;https://graph.windows.net/&#34;,
+</span></span><span class="line"><span class="ln"> 9</span><span class="cl">    &#34;sqlManagementEndpointUrl&#34;: &#34;https://management.core.windows.net:8443/&#34;,
+</span></span><span class="line"><span class="ln">10</span><span class="cl">    &#34;galleryEndpointUrl&#34;: &#34;https://gallery.azure.com/&#34;,
+</span></span><span class="line"><span class="ln">11</span><span class="cl">    &#34;managementEndpointUrl&#34;: &#34;https://management.core.windows.net/&#34;
+</span></span><span class="line"><span class="ln">12</span><span class="cl">  }
+</span></span></code></pre></div><h1 id="configure-the-github-secret">Configure the GitHub secret</h1>
+<ol>
+<li>In GitHub, browse our repository.</li>
+<li>Select <strong>Settings &gt; Secrets &gt; New secret</strong>.</li>
+<li>Paste the entire JSON output captured earlier. For secret name, use AZURE_CREDENTIALS
+When you configure the workflow file later, you use the secret name for the input <strong>creds</strong> of the Azure Login action, for example:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">- uses: azure/login@v1
+</span></span><span class="line"><span class="ln">2</span><span class="cl">with:
+</span></span><span class="line"><span class="ln">3</span><span class="cl">    creds: ${{ secrets.AZURE_CREDENTIALS }}
+</span></span></code></pre></div><h1 id="add-your-workflow">Add your workflow</h1>
+<ol>
+<li>Go to Actions for your GitHub repository.</li>
+<li>Select <strong>Set up your workflow yourself</strong>.</li>
+<li>Delete everything from the workflow and replace with the following code block:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln"> 1</span><span class="cl"># This is a basic workflow to help you get started with Actions
+</span></span><span class="line"><span class="ln"> 2</span><span class="cl">
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl">name: Blob storage website CI
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl">
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl"># Controls when the workflow will run
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl">on:
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl">  # Triggers the workflow on push or pull request events but only for the &#34;main&#34; branch
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl">  push:
+</span></span><span class="line"><span class="ln"> 9</span><span class="cl">    branches: [ &#34;main&#34; ]
+</span></span><span class="line"><span class="ln">10</span><span class="cl">
+</span></span><span class="line"><span class="ln">11</span><span class="cl">jobs:
+</span></span><span class="line"><span class="ln">12</span><span class="cl">  build:
+</span></span><span class="line"><span class="ln">13</span><span class="cl">    runs-on: ubuntu-latest
+</span></span><span class="line"><span class="ln">14</span><span class="cl">    steps:
+</span></span><span class="line"><span class="ln">15</span><span class="cl">    - uses: actions/checkout@v2
+</span></span><span class="line"><span class="ln">16</span><span class="cl">    - uses: azure/login@v1
+</span></span><span class="line"><span class="ln">17</span><span class="cl">      with:
+</span></span><span class="line"><span class="ln">18</span><span class="cl">          creds: ${{ secrets.AZURE_CREDENTIALS }}
+</span></span><span class="line"><span class="ln">19</span><span class="cl">    - name: Upload to blob storage
+</span></span><span class="line"><span class="ln">20</span><span class="cl">      uses: azure/CLI@v1
+</span></span><span class="line"><span class="ln">21</span><span class="cl">      with:
+</span></span><span class="line"><span class="ln">22</span><span class="cl">        inlineScript: |
+</span></span><span class="line"><span class="ln">23</span><span class="cl">            az storage blob upload-batch --account-name yourstaticwebsitestorageaccount --auth-mode key -d &#39;$web&#39; -s ./public --overwrite
+</span></span><span class="line"><span class="ln">24</span><span class="cl">    - name: Purge CDN endpoint
+</span></span><span class="line"><span class="ln">25</span><span class="cl">      uses: azure/CLI@v1
+</span></span><span class="line"><span class="ln">26</span><span class="cl">      with:
+</span></span><span class="line"><span class="ln">27</span><span class="cl">        inlineScript: |
+</span></span><span class="line"><span class="ln">28</span><span class="cl">           az cdn endpoint purge --content-paths  &#34;/*&#34; --profile-name &#34;thojotechwebcdn&#34; --name &#34;thojotechwebcdn&#34; --resource-group &#34;rg-eastus-thojotech-01&#34; --no-wait
+</span></span><span class="line"><span class="ln">29</span><span class="cl">   
+</span></span><span class="line"><span class="ln">30</span><span class="cl"># Azure logout
+</span></span><span class="line"><span class="ln">31</span><span class="cl">    - name: logout
+</span></span><span class="line"><span class="ln">32</span><span class="cl">      run: |
+</span></span><span class="line"><span class="ln">33</span><span class="cl">            az logout
+</span></span><span class="line"><span class="ln">34</span><span class="cl">      if: always()
+</span></span></code></pre></div><p>In the example above, notice the changes required for publishing Hugo static content, which uses a  <strong>public</strong> folder to store the static content. That is the folder we need to copy to Azure Blob storage.</p>
+<p>Now, when you commit changes to your GitHub static website repository, the public folder will be copied to your Azure static web site blob storage automagically.</p>
+
+    </div><div class="post_comments">
+  
+  
+  
+</div>
 
     
-      
-        
-        
-        
-        
-        
-        
-    <img
-      loading="lazy"
-      decoding="async"
-      alt="Az MySql Flexible-server command returns error"
-      
-        class="image_figure image_thumbnail image_internal image_unprocessed"
-        src="/post/azmysqlflexclierr/error.png"
-      
-      
-    />
 
-    </picture>
-</figure>
-
-      </div>
-      
-        <div class="pale">
-          
-            <p>I recently started scripting with Azure CLI within my Windows Subsystem for Linux (WSL) environment and tried to create a database on an Azure Database for MySQL Flexible-Server instance and received an error 'flexible-server' is not in the 'az mysql' command group. I also tried to list out the flexible-servers in my …</p>
-          
-          <br>
-          <a href="https://www.thojotech.com/post/azmysqlflexclierr/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-
-      <li>
-      </li>
-    </ul>
-  </div>
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
     <br>
     
   
   <div class="search">
-    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='tags'>
+    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='post'>
     <label for="find" class="search_label"><svg class="icon">
   <title>search</title>
   <use xlink:href="#search"></use>
@@ -277,17 +306,11 @@
     <h2 class="mt-4">Featured Posts</h2>
     <ul>
       <li>
-        <a href="https://www.thojotech.com/post/hugoazuregithub/" class="nav-link" title="Use GitHub Actions workflow to deploy your Hugo static website in Azure Storage">Use GitHub Actions workflow to deploy your Hugo static website in Azure Storage</a>
-      </li>
-      <li>
         <a href="https://www.thojotech.com/post/notes-o365/" class="nav-link" title="Notes from the field - Microsoft Office 365 Migration">Notes from the field - Microsoft Office 365 Migration</a>
       </li>
     </ul>
     <h2 class="mt-4">Recent Posts</h2>
     <ul class="flex-column">
-      <li>
-        <a href="https://www.thojotech.com/post/hugoazuregithub/" class="nav-link" title="Use GitHub Actions workflow to deploy your Hugo static website in Azure Storage">Use GitHub Actions workflow to deploy your Hugo static website in Azure Storage</a>
-      </li>
       <li>
         <a href="https://www.thojotech.com/post/azmysqlflexclierr/" class="nav-link" title="Az MySql Flexible-server command returns error">Az MySql Flexible-server command returns error</a>
       </li>
@@ -390,9 +413,8 @@
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>

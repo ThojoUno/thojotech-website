@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Azure on THOJOTECH</title>
-    <link>https://www.thojotech.com/categories/azure/</link>
-    <description>Recent content in Azure on THOJOTECH</description>
+    <title>Hugo on THOJOTECH</title>
+    <link>https://www.thojotech.com/tags/hugo/</link>
+    <description>Recent content in Hugo on THOJOTECH</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2022, Joe Thompson; all rights reserved.</copyright>
-    <lastBuildDate>Thu, 07 Jul 2022 10:17:57 -0700</lastBuildDate><atom:link href="https://www.thojotech.com/categories/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Jul 2022 10:17:57 -0700</lastBuildDate><atom:link href="https://www.thojotech.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Use GitHub Actions workflow to deploy your Hugo static website in Azure Storage</title>
       <link>https://www.thojotech.com/post/hugoazuregithub/</link>
@@ -19,23 +19,6 @@
             This article is based on Microsoft’s documentation -- Use GitHub Actions workflow to deploy your static website in Azure Storage --, but has been updated to reflect changes required to publish Hugo static sites to Azure blob storage/static web sites. Please see the article linked above for a list of prerequisites.
 Generate deployment credentials Using Azure CLI
 1$azsubId=&amp;#34;xxxxxxxxxxxxxxxxxxxxxx&amp;#34; 2$azStrAcctResourceGroup=&amp;#34;rg-westus2-website&amp;#34; 3$azstorageacct=&amp;#34;stgwestus2webstorageacct&amp;#34; 4az ad sp create-for-rbac --name $azstorageacct --role contributor --scopes /subscriptions/$azsubId/resourceGroups/$azStrAcctResourceGroup --sdk-auth The command will generate a JSON object, copy and save for later:
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Az MySql Flexible-server command returns error</title>
-      <link>https://www.thojotech.com/post/azmysqlflexclierr/</link>
-      <pubDate>Wed, 06 Jul 2022 20:43:41 -0700</pubDate>
-      
-      <guid>https://www.thojotech.com/post/azmysqlflexclierr/</guid>
-      <description>
-        
-          
-            I recently started scripting with Azure CLI within my Windows Subsystem for Linux (WSL) environment and tried to create a database on an Azure Database for MySQL Flexible-Server instance and received an error &#39;flexible-server&#39; is not in the &#39;az mysql&#39; command group. I also tried to list out the flexible-servers in my subscription, but it also give the same error!
-I tried to see if maybe my Azure CLI was out of date, but it was already at the newest version!
           
           
         
