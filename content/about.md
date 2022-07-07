@@ -8,6 +8,12 @@ author = "Joe Thompson"
 
 Blog with an emphasis on technology, particularly as it relates to Microsoft and Microsoft Azure and other random things.
 
+Joe has over 20 years of 
+
+
+
+
+
 This blog is created in Hugo, an open-source static site generator, and hosted on Microsoft Azure Static Web apps.
 
 All content and opinions are my own and do not necessary reflect that of my employer or Microsoft.

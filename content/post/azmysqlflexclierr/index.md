@@ -74,3 +74,4 @@ Not matter, I found the instructions for reinstalling Azure CLI here…
 ~$ sudo apt-get install azure-cli
 ``` 
 The az mysql flexible-server module did not light up right away, I had to restart my Ubuntu WSL session. After that, it works fine!
+![Working az mysql command](picture3.png)
