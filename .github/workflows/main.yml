@@ -25,7 +25,7 @@ jobs:
       uses: azure/CLI@v1
       with:
         inlineScript: |
-           az cdn endpoint purge --content-paths  "/*" --profile-name "thojotechwebcdn" --name "thojotechwebcdn.azureedge.net" --resource-group "rg-eastus-thojotech-01" --no-wait
+           az cdn endpoint purge --content-paths  "/*" --profile-name "thojotechwebcdn" --name "thojotechwebcdn" --resource-group "rg-eastus-thojotech-01" --no-wait
    
 # Azure logout
     - name: logout
