@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on THOJOTECH</title>
-    <link>https://www.thojotech.com/tags/</link>
+    <link>https://blog.thojotech.com/tags/</link>
     <description>Recent content in Tags on THOJOTECH</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2022, Joe Thompson; all rights reserved.</copyright>
-    <lastBuildDate>Thu, 07 Jul 2022 10:17:57 -0700</lastBuildDate><atom:link href="https://www.thojotech.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Jul 2022 10:17:57 -0700</lastBuildDate><atom:link href="https://blog.thojotech.com/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

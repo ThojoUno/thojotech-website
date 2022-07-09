@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on THOJOTECH</title>
-    <link>https://www.thojotech.com/tags/hugo/</link>
+    <link>https://blog.thojotech.com/tags/hugo/</link>
     <description>Recent content in Hugo on THOJOTECH</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2022, Joe Thompson; all rights reserved.</copyright>
-    <lastBuildDate>Thu, 07 Jul 2022 10:17:57 -0700</lastBuildDate><atom:link href="https://www.thojotech.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Jul 2022 10:17:57 -0700</lastBuildDate><atom:link href="https://blog.thojotech.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Use GitHub Actions workflow to deploy your Hugo static website in Azure Storage</title>
-      <link>https://www.thojotech.com/post/hugoazuregithub/</link>
+      <link>https://blog.thojotech.com/post/hugoazuregithub/</link>
       <pubDate>Thu, 07 Jul 2022 10:17:57 -0700</pubDate>
       
-      <guid>https://www.thojotech.com/post/hugoazuregithub/</guid>
+      <guid>https://blog.thojotech.com/post/hugoazuregithub/</guid>
       <description>
         
           

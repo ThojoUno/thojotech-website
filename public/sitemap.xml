@@ -2,82 +2,82 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.thojotech.com/</loc>
+    <loc>https://blog.thojotech.com/</loc>
     <lastmod>2022-07-07T10:17:57-07:00</lastmod>
   </url><url>
-    <loc>https://www.thojotech.com/tags/azure/</loc>
+    <loc>https://blog.thojotech.com/tags/azure/</loc>
     <lastmod>2022-07-07T10:17:57-07:00</lastmod>
   </url><url>
-    <loc>https://www.thojotech.com/categories/azure/</loc>
+    <loc>https://blog.thojotech.com/categories/azure/</loc>
     <lastmod>2022-07-07T10:17:57-07:00</lastmod>
   </url><url>
-    <loc>https://www.thojotech.com/categories/</loc>
+    <loc>https://blog.thojotech.com/categories/</loc>
     <lastmod>2022-07-07T10:17:57-07:00</lastmod>
   </url><url>
-    <loc>https://www.thojotech.com/tags/github/</loc>
+    <loc>https://blog.thojotech.com/tags/github/</loc>
     <lastmod>2022-07-07T10:17:57-07:00</lastmod>
   </url><url>
-    <loc>https://www.thojotech.com/tags/hugo/</loc>
+    <loc>https://blog.thojotech.com/tags/hugo/</loc>
     <lastmod>2022-07-07T10:17:57-07:00</lastmod>
   </url><url>
-    <loc>https://www.thojotech.com/categories/hugo/</loc>
+    <loc>https://blog.thojotech.com/categories/hugo/</loc>
     <lastmod>2022-07-07T10:17:57-07:00</lastmod>
   </url><url>
-    <loc>https://www.thojotech.com/post/</loc>
+    <loc>https://blog.thojotech.com/post/</loc>
     <lastmod>2022-07-07T10:17:57-07:00</lastmod>
   </url><url>
-    <loc>https://www.thojotech.com/tags/</loc>
+    <loc>https://blog.thojotech.com/tags/</loc>
     <lastmod>2022-07-07T10:17:57-07:00</lastmod>
   </url><url>
-    <loc>https://www.thojotech.com/post/hugoazuregithub/</loc>
+    <loc>https://blog.thojotech.com/post/hugoazuregithub/</loc>
     <lastmod>2022-07-07T10:17:57-07:00</lastmod>
   </url><url>
-    <loc>https://www.thojotech.com/post/azmysqlflexclierr/</loc>
+    <loc>https://blog.thojotech.com/post/azmysqlflexclierr/</loc>
     <lastmod>2022-07-06T20:43:41-07:00</lastmod>
   </url><url>
-    <loc>https://www.thojotech.com/tags/cli/</loc>
+    <loc>https://blog.thojotech.com/tags/cli/</loc>
     <lastmod>2022-07-06T20:43:41-07:00</lastmod>
   </url><url>
-    <loc>https://www.thojotech.com/tags/mysql/</loc>
+    <loc>https://blog.thojotech.com/tags/mysql/</loc>
     <lastmod>2022-07-06T20:43:41-07:00</lastmod>
   </url><url>
-    <loc>https://www.thojotech.com/tags/powershell/</loc>
+    <loc>https://blog.thojotech.com/tags/powershell/</loc>
     <lastmod>2022-07-06T20:43:41-07:00</lastmod>
   </url><url>
-    <loc>https://www.thojotech.com/tags/ubuntu/</loc>
+    <loc>https://blog.thojotech.com/tags/ubuntu/</loc>
     <lastmod>2022-07-06T20:43:41-07:00</lastmod>
   </url><url>
-    <loc>https://www.thojotech.com/tags/wsl/</loc>
+    <loc>https://blog.thojotech.com/tags/wsl/</loc>
     <lastmod>2022-07-06T20:43:41-07:00</lastmod>
   </url><url>
-    <loc>https://www.thojotech.com/tags/box/</loc>
+    <loc>https://blog.thojotech.com/tags/box/</loc>
     <lastmod>2022-07-05T09:38:55-07:00</lastmod>
   </url><url>
-    <loc>https://www.thojotech.com/tags/microsoft/</loc>
+    <loc>https://blog.thojotech.com/tags/microsoft/</loc>
     <lastmod>2022-07-05T09:38:55-07:00</lastmod>
   </url><url>
-    <loc>https://www.thojotech.com/categories/notes-from-the-field/</loc>
+    <loc>https://blog.thojotech.com/categories/notes-from-the-field/</loc>
     <lastmod>2022-07-05T09:38:55-07:00</lastmod>
   </url><url>
-    <loc>https://www.thojotech.com/post/notes-o365/</loc>
+    <loc>https://blog.thojotech.com/post/notes-o365/</loc>
     <lastmod>2022-07-05T09:38:55-07:00</lastmod>
   </url><url>
-    <loc>https://www.thojotech.com/tags/office365/</loc>
+    <loc>https://blog.thojotech.com/tags/office365/</loc>
     <lastmod>2022-07-05T09:38:55-07:00</lastmod>
   </url><url>
-    <loc>https://www.thojotech.com/tags/onedrive/</loc>
+    <loc>https://blog.thojotech.com/tags/onedrive/</loc>
     <lastmod>2022-07-05T09:38:55-07:00</lastmod>
   </url><url>
-    <loc>https://www.thojotech.com/about/</loc>
+    <loc>https://blog.thojotech.com/about/</loc>
     <lastmod>2022-07-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.thojotech.com/archives/</loc>
+    <loc>https://blog.thojotech.com/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.thojotech.com/tags/index/</loc>
+    <loc>https://blog.thojotech.com/tags/index/</loc>
   </url><url>
-    <loc>https://www.thojotech.com/search/</loc>
+    <loc>https://blog.thojotech.com/search/</loc>
   </url><url>
-    <loc>https://www.thojotech.com/series/</loc>
+    <loc>https://blog.thojotech.com/series/</loc>
   </url>
 </urlset>
